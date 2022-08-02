@@ -18,8 +18,6 @@ export const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         border: 0;
-        font-size: 100%;
-        font: inherit;
         vertical-align: baseline;
     }
     /* HTML5 display-role reset for older browsers */
@@ -52,11 +50,12 @@ export const GlobalStyles = createGlobalStyle`
 
         --ff-roboto : 'Roboto Slab', serif;
         --ff-ubuntu: 'Ubuntu', sans-serif;
+        --ff-poiret: 'Poiret One';
 
-        --fs-xs: clamp(0.7rem, 1vw + 0.05rem, 2rem)
-        --fs-s: clamp(1rem, 1vw + 0.05rem, 3rem)
-        --fs-m: clamp(2rem, 1vw + 0.05rem, 4rem)
-        --fs-l: clamp(3rem, 1vw + 0.05rem, 7rem)
+        --fs-xs: clamp(0.7rem, 1vw + 0.05rem, 2rem);
+        --fs-s: clamp(1rem, 1vw + 0.05rem, 3rem);
+        --fs-m: clamp(2rem, 1vw + 0.05rem, 4rem);
+        --fs-l: clamp(3rem, 1vw + 0.05rem, 7rem);
     }
     /* Css variables Ends */
 
