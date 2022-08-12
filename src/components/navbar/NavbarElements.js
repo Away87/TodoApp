@@ -4,22 +4,24 @@ import {FaBars} from "react-icons/fa"
 export const Container = styled.nav`
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
     justify-content: space-between;
+/* 
+    position: fixed;
+    right: 0;
+    left: 0; */
     
-    height: 6em;
-    border: 2px solid red;
+    height: 3em;
     padding: 0 1em;
-    
+    background-color: var(--clr-white);
 `
 export const Logo = styled.h1`
-    font-size: var(--fs-l);
+    font-size: var(--fs-m);
     font-family: var(--ff-poiret);
-    border: 2px solid pink;
 
     width: 20%;
     min-width: fit-content;
     text-align: center;
+    cursor: pointer;
 `
 export const Bar = styled(FaBars)`
     font-size: var(--fs-m);
@@ -33,7 +35,6 @@ export const Links = styled.ul`
     justify-content: space-evenly;
     gap: 1em;
 
-    border: 2px solid red;
     width: 20%;
     min-width: fit-content;
     @media screen and (max-width: 30em){
@@ -50,7 +51,7 @@ export const LinksLi = styled.li`
         padding:5px 15px;
         border-radius: 10px;
 
-        font-size: var(--fs-s);
+        font-size: var(--fs-xs);
 
         &:hover {
             transform: scale(1.05);

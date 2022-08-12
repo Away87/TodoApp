@@ -47,13 +47,15 @@ export const GlobalStyles = createGlobalStyle`
         --clr-pink : rgba(229,92,138,255);
         --clr-grey : rgba(60,66,74,255);
         --clr-dark-grey : rgba(52,58,64,255);
+        --clr-white: #fff;
+        --clr-black: #000;
 
         --ff-roboto : 'Roboto Slab', serif;
         --ff-ubuntu: 'Ubuntu', sans-serif;
         --ff-poiret: 'Poiret One';
 
-        --fs-xs: clamp(0.7rem, 1vw + 0.05rem, 2rem);
-        --fs-s: clamp(1rem, 1vw + 0.05rem, 3rem);
+        --fs-xs: clamp(0.9rem, 1vw + 0.05rem, 2rem);
+        --fs-s: clamp(1.2rem, 1vw + 0.05rem, 3rem);
         --fs-m: clamp(2rem, 1vw + 0.05rem, 4rem);
         --fs-l: clamp(3rem, 1vw + 0.05rem, 7rem);
     }
@@ -71,6 +73,11 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
     }
     /* Global Styles Ends */
 `
