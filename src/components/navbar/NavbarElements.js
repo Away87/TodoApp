@@ -17,6 +17,7 @@ export const Container = styled.nav`
 export const Logo = styled.h1`
     font-size: var(--fs-m);
     font-family: var(--ff-poiret);
+    color: var(--clr-pink);
 
     width: 20%;
     min-width: fit-content;

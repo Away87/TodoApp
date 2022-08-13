@@ -9,11 +9,14 @@ import { GlobalStyles } from './GlobalStyledElements'
 import LoginPage from './components/login'
 import HomePage from './components/home'
 
+
 const App = () => {
   return (
     <>
     <GlobalStyles/>
+    
     <Navbar/>
+  
     {
       useRoutes([
         {path:"/", element:<HomePage/>},
