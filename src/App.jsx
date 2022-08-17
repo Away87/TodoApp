@@ -4,7 +4,7 @@ import {
   useRoutes,
   Outlet
  } from 'react-router-dom'
- import { Paths } from './paths'
+ import Paths from './paths'
 import { GlobalStyles } from './GlobalStyledElements'
 import LoginPage from './components/login'
 import HomePage from './components/home'

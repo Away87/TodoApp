@@ -1,7 +1,7 @@
 import React from 'react'
 import { useInterval } from 'usehooks-ts'
 import { Overlay, Container, Cross, Links, LinksLi } from './MobileNavbarElements'
-import { Paths } from '../../paths'
+import Paths from '../../paths'
 import { Link } from 'react-router-dom'
 const MobileNavbar = (props) => {
     useInterval(()=>{

@@ -11,7 +11,7 @@ export const Container = styled.div`
         flex-direction: row-reverse;
         justify-content: space-evenly;
         align-items: center;
-        height: calc(100vh - 3em);
+        height: var(--h-content);
     }
 `
 

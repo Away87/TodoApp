@@ -10,7 +10,7 @@ export const Container = styled.nav`
     right: 0;
     left: 0; */
     
-    height: 3em;
+    height: var(--h-navbar);
     padding: 0 1em;
     background-color: var(--clr-white);
 `
@@ -51,8 +51,6 @@ export const LinksLi = styled.li`
         border:2px solid var(--clr-dark-grey);
         padding:5px 15px;
         border-radius: 10px;
-
-        font-size: var(--fs-xs);
 
         &:hover {
             transform: scale(1.05);

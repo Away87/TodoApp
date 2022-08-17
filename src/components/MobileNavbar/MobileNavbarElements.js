@@ -9,6 +9,7 @@ export const Overlay = styled.div`
     position: fixed;
     top: 0;
     left: 0;
+    z-index: var(--z-index-100);
     background-color: rgba(0,0,0,0.5);
 
     transform: ${props=>props.visible? "translateX(0%)":"translateX(-100%)"};
@@ -24,6 +25,7 @@ export const Container = styled.div`
     position: fixed;
     right: 0;
     top: 0;
+    z-index: var(--z-index-100);
 
     transform: ${props=>props.visible? "translate(0%)":"translate(100%)"};
     transition: transform 300ms ease-in;

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { useInterval } from 'usehooks-ts'
 import { Container, Links, LinksLi, Logo, Bar } from "./NavbarElements"
 import { Link } from 'react-router-dom'
-import { Paths } from '../../paths'
+import  Paths  from '../../paths'
 import MobileNavbar from '../MobileNavbar'
 
 

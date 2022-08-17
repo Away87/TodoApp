@@ -45,6 +45,8 @@ export const GlobalStyles = createGlobalStyle`
     /* Css variables */
     :root {
         --clr-pink : rgba(229,92,138,255);
+        --clr-pink-com:#62F0C0;
+        --clr-pink-light:#F8B8CE;
         --clr-grey : rgba(60,66,74,255);
         --clr-dark-grey : rgba(52,58,64,255);
         --clr-white: #fff;
@@ -54,10 +56,16 @@ export const GlobalStyles = createGlobalStyle`
         --ff-ubuntu: 'Ubuntu', sans-serif;
         --ff-poiret: 'Poiret One';
 
-        --fs-xs: clamp(0.9rem, 1vw + 0.05rem, 2rem);
-        --fs-s: clamp(1.2rem, 1vw + 0.05rem, 3rem);
-        --fs-m: clamp(2rem, 1vw + 0.05rem, 4rem);
-        --fs-l: clamp(3rem, 1vw + 0.05rem, 7rem);
+        --fs-xxs: clamp(0.8rem, 1vw + 0.01rem, 5rem);
+        --fs-xs: clamp(0.8rem, 1.3vw + 0.05rem, 5rem);
+        --fs-s: clamp(1.2rem, 1.3vw + 0.05rem, 5rem);
+        --fs-m: clamp(2rem, 1.3vw + 0.05rem, 8rem);
+        --fs-l: clamp(3rem, 1.3vw + 0.05rem, 9rem);
+
+        --h-navbar:3em;
+        --h-content:calc(100vh - 3em);
+
+        --z-index-100:100;
     }
     /* Css variables Ends */
 
@@ -79,6 +87,15 @@ export const GlobalStyles = createGlobalStyle`
     a{
         text-decoration: none;
         color: inherit;
+    }
+
+    button {
+        font-size: var(--fs-xxs);
+        cursor: pointer;
+    }
+
+    input {
+        font-size: var(--fs-xxs);
     }
     /* Global Styles Ends */
 `
